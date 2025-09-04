@@ -2,11 +2,11 @@
 
 Question and data repository for the [2025 Capture the Flag](https://supaerodatascience.github.io/DE/ctf.html).
 
-[Leaderboard](http://34.155.94.97/)
+[Leaderboard](http://34.163.196.38/)
 
-Server IP: 34.155.94.97
+Server IP: 34.163.196.38
 
-## Questions - 2025 edition
+## Questions - 2025 edition
 
 1 | Where is the `curl` executable located? Some systems vary, if your answer is incorrect, try a common alternative.
 
