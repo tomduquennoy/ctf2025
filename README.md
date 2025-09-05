@@ -119,3 +119,47 @@ Server IP: 34.163.196.38
 54 | After searching within a `man` page, what key can be used to jump to the next occurrence of the search term?
 
 55 | What key is used to jump to the beginning of a `man` page?
+
+### Git
+
+56 | How many directories are there in the root directory of the `machine-learning` repository?
+
+57 | How many total files are there in the `machine-learning` repository and all subdirectories? Not counting directories or hidden files like the `.git` repository
+
+58 | How many python or numpy files are in the `machine-learning` repository and subdirectories?
+
+59 | What is the short version of the commit ID of the first commit of the `machine-learning` repository?
+
+60 | What is the long version of the commit ID of the most recent commit of the `machine-learning` repository?
+
+61 | What city is mentioned in the 2nd most recent commit message of the `machine-learning` repository?
+
+62 | How many branches are in the `machine-learning` repository? Don't double count references to the same branch.
+
+63 | What is the name of the branch which isn't `main` in the `machine-learning` repository?
+
+64 | How many different unique user addresses have pushed commits to the `machine-learning` repository?
+
+65 | What is the name of the LICENSE of the `machine-learning` repository? Hint: it is also the full first line of the LICENSE file
+
+66 | What is the git remote "origin" url of the seaborn repository?
+
+67 | What is the full version of the last commit ID in the 0.12 version branch of seaborn?
+
+The following questions concern the `master` branch of seaborn at the commit `1e6739`.
+
+68 | How many commits are in the `master` branch of seaborn?
+
+69 | How many tagged commits are there in the seaborn repository?
+
+70 | How many "version" branches are there (ie, branches with a name starting in v)?
+
+71 | What is the last item of the seaborn repository's gitignore?
+
+72 | What is the first line of the `setup.cfg` file in the seaborn repository?
+
+73 | How many such key fields are in the `setup.cfg` file in the seaborn repository?
+
+74 | How many files are in the seaborn repository? Not counting hidden files like the `.git` repository
+
+75 | How many files directly contain the word "numpy" in the seaborn repository? Do not count hidden files like `.git/`
