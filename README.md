@@ -217,3 +217,201 @@ The following questions pertain to the remote server:
 99 | How many `.txt` files are on the whole server?
 
 100 | How many `.txt` files are in the home directory or its subdirectories?
+
+### Python
+
+Questions 101 - 120 are the responses to the exercises in the Jupyter notebook `python_intro.ipynb`, which is in the `ctf2024` github repository. Some exercises can be solved by running the code in them; try to figure them out before running the code to get the solution.
+
+121 | What is the type of `a` in the code `a = [None] * 4`?
+
+122 | What is the character used to start a comment in Python?
+
+123 | True or False: `is` checks if the _value_ of two variables are the same.
+
+124 | True or False: `==` checks if the _value_ of two variables are the same.
+
+125 | What is the return value of the following code?
+
+```python
+a = list(range(10))
+b = a[:]
+b is a
+```
+
+126 | What is the return value of the following code?
+
+```python
+a = 'bonjour'
+b = "bonjour"
+a is b
+```
+
+127 | Which of `math.ceil` and `math.floor` gives the same result as `round` for 0.5?
+
+128 | What is the keyword used to start a function definition?
+
+129 | What is the name of the function used to remove whitespace in a python string?
+
+130 | What is the type of the following code: `["a", "b", "c"]`?
+
+131 | What is the type of the following code: `{"a", "b", "c"}`?
+
+132 | What is the type of the following code: `"a", "b", "c"`?
+
+133 | How many times does the following code print?
+
+```python
+for i in range(10):
+    if i == 4:
+        break
+    print(i)
+```
+
+134 | How many times does the following code print?
+
+```python
+for i in range(10):
+    if i == 4:
+        continue
+    print(i)
+```
+
+135 | How many times does the following code print?
+
+```python
+for i in range(10):
+    if i == 4:
+        pass
+    print(i)
+```
+
+136 | How many times does the following code print?
+
+```python
+for n in range(2, 10):
+   for x in range(2, n):
+       if n % x == 0:
+           break
+   else:
+       print(n)
+```
+
+137 | What does `http_error(402)` return in the following code?
+
+```python
+def http_error(status):
+    match status:
+        case 400 | 401 | 403 | 404:
+            return "Bad request"
+        case 418:
+            return "I'm a teapot"
+        case _:
+            return "Something is wrong with the internet"
+```
+
+138 | What does the following code print?
+
+```python
+def foo(arg, /):
+    print(arg)
+
+try:
+    foo(arg=3)
+except:
+    print(4)
+```
+
+139 | What does the following code print?
+
+```python
+def foo(*, arg):
+    print(arg)
+
+try:
+    foo(4)
+except:
+    print(3)
+```
+
+140 | What does the following code print?
+
+```python
+def foo(a, /, b, *, c):
+    print(a, b, c)
+
+try:
+    foo(1, b=2, c=3)
+except:
+    print(3, 4, 5)
+```
+
+141 | What is the return value of the following code?
+
+```python
+from datetime import timedelta
+a = timedelta(weeks=2, hours=3, seconds=32)
+b = timedelta(hours=3, seconds=32, days=14, weeks=0)
+a == b
+```
+
+142 | What is the first argument to the `datetime.date` function?
+
+143 | What is the return value of the following code?
+
+```python
+import time
+from datetime import date
+date.today() == date.fromtimestamp(time.time())
+```
+
+144 | What is the directive used for a month's full name in `strftime`?
+
+145 | What is the second to last element of a datetime `timetuple`?
+
+146 | What is the result of `math.fsum([0.1]*10)`?
+
+147 | What is the result of `sum` on the same list?
+
+148 | What is the result of `math.isclose(math.fsum([0.1]*10), sum([0.1]*10))`?
+
+149 | What is the python `math` function to check if a value is not a number?
+
+150 | What is the return value of the code `math.log(1234, 10) == math.log10(1234)`?
+
+151 | What is the return value of `math.pow(3, 0)`?
+
+152 | What is the name of the python standard library that contains the functions `mean`, `median`, and `mode`?
+
+153 | What is the name of the `pickle` function to write a pickled version of an object to a file?
+
+154 | True or False: all classes that are defined inside a module can be pickled.
+
+155 | What does the following code print?
+
+```python
+print(json.dumps({"c": 0, "b": 0, "a": 0}, sort_keys=True))
+```
+
+156 | What is the expected type of the first argument of `json.loads`?
+
+157 | What does the value "null" in JSON correspond to in Python?
+
+158 | What is the return of the following code?
+
+```python
+json.loads('{"x": 1, "x": 2, "x": 3}')
+```
+
+159 | What is the function name in the `requests` package to make an HTTP POST request?
+
+160 | What is the name of the argument for providing an HTML payload in an HTTP POST request in the `requests` library?
+
+## Numpy and Pandas
+
+Questions 161 - 200 are in the numpy and pandas notebooks.
+
+161 - 180 | numpy.ipynb
+
+181 - 195 | pandas_titanic.ipynb
+
+196 - 200 | pandas_air_quality.ipynb
