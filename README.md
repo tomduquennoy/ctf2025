@@ -247,11 +247,11 @@ a is b
 ```
 
 127 | Which of `math.ceil` and `math.floor` gives the same result as `round` for 0.5?
-
+floor
 128 | What is the keyword used to start a function definition?
-
+def
 129 | What is the name of the function used to remove whitespace in a python string?
-
+strip
 130 | What is the type of the following code: `["a", "b", "c"]`?
 
 131 | What is the type of the following code: `{"a", "b", "c"}`?
@@ -370,7 +370,7 @@ date.today() == date.fromtimestamp(time.time())
 
 146 | What is the result of `math.fsum([0.1]*10)`?
 
-147 | What is the result of `sum` on the same list?
+147 | What is the result of `sum` on the same list?qsmlifghqoiuhhvois
 
 148 | What is the result of `math.isclose(math.fsum([0.1]*10), sum([0.1]*10))`?
 
