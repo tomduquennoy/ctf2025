@@ -163,3 +163,57 @@ The following questions concern the `master` branch of seaborn at the commit `1e
 74 | How many files are in the seaborn repository? Not counting hidden files like the `.git` repository
 
 75 | How many files directly contain the word "numpy" in the seaborn repository? Do not count hidden files like `.git/`
+
+### SSH
+
+76 | What is the name of the Linux command used to generate SSH keys?
+
+77 | What is the letter of the flag to specify the number of bits when generating an ssh key?
+
+78 | What is the letter of the `ssh` flag that denotes the private key to use for authentication?
+
+79 | What is the letter of the `ssh` flag to specify the user to log in as on the remote machine?
+
+80 | What is the default port for `ssh`?
+
+81 | What is the first default private key file used by `ssh`?
+
+82 | What is the escape command to disconnect from an `ssh` pseudoterminal?
+
+83 | What is the standard location of the per-user SSH configuration file in Linux?
+
+84 | What is the keyword to specify the private key file in an ssh configuration file?
+
+The following questions pertain to the remote server:
+
+85 | How many files (excluding directories) are there in `~/`?
+
+86 | Where are the executables accessible to the user?
+
+87 | How many binary executables are available to the user?
+
+88 | What is the hostname of the server?
+
+89 | What is the kernel name of the server?
+
+90 | What is the release of the kernel of the server?
+
+91 | What is the MAC address of the ethernet device of the server?
+
+92 | What is the internal IP address of the server?
+
+93 | What is the timezone of the server?
+
+94 | What is the remote origin URL of the git repository at `~/repo/`?
+
+95 | What is the name of the file (without the path) that has been removed in the git repository?
+
+96 | How many lines are in the file `~/repo/data/dogc.txt`?
+
+97 | What is the last line of the file `~/repo/data/muni-cat.txt`?
+
+98 | How many times does the word "biblioteca" appear in all files in `~/repo/data/`?
+
+99 | How many `.txt` files are on the whole server?
+
+100 | How many `.txt` files are in the home directory or its subdirectories?
